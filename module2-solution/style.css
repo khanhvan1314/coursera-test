@@ -1,0 +1,50 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Monaco;
+}
+div.container{
+	width: 100%;
+}
+h1{
+	text-align: center;
+}
+div.p1, div.p2, div.p3{
+	background-color: #A9A9A9;
+	border: 1px solid black;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	position: relative;
+	}
+@media (min-width: 992px) {
+	.p1{
+		width: 33%;
+	}
+	.p2{
+		width: 33%;
+	}
+	.p3{
+		width: 33%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.p1, .p2{
+		width: 50%;
+	}
+	.p3{width: 100%}
+}
+#t1, #t2, #t3 {
+	width: 80px;
+	height: 30px;
+	border: 1px solid black;
+	text-align: center;
+	top: 0;
+	right: 0;
+	
+	float: right;
+	position: relative;
+	}
